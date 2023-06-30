@@ -1,0 +1,15 @@
+.contacto__form{
+    display: flex;
+    flex-direction: column;
+}
+
+.contacto__input__nombre{
+    margin-bottom: 10px;
+    border-radius: 25px;
+}
+.contacto__input__mensaje{
+    margin-bottom: 10px;
+    border-radius: 25px;
+    resize: none;
+}
+

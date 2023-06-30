@@ -1,0 +1,50 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    
+}
+.header__input-search{
+    border-radius: 15px;
+}
+
+.header__menu{
+    display: flex;
+    align-items: center;
+}
+
+.header__search-wrapper {
+    position: relative;
+}
+
+.header__logo{
+    padding-right: 2rem;
+}
+
+.login__btn{
+    width: 10%;
+    text-align: center;
+}
+
+.fa-magnifying-glass {
+    position: absolute;
+    top: 7px;
+    right: 5px;
+}
+
+@media screen and (min-width:0) {
+    .header__input-search{
+        width: 25px;
+    }
+}
+
+@media screen and (min-width:768px) {
+
+    .header__input-search{
+       padding: 5px;
+       width: 100%;
+    }
+    
+}
+
