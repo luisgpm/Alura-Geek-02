@@ -1,0 +1,36 @@
+{
+  "productos": [
+    {
+      "img_p": "assets/img/productos/Skill1.png",
+      "categoria_p": "Consolas",
+      "nombre_p": "xbox",
+      "precio_p": 1200,
+      "descripcion_p": "consola de xbox s con capacidad de 1TB",
+      "id": 1
+    },
+    {
+      "img_p": "assets/img/productos/Skill (2).png",
+      "categoria_p": "jueguete",
+      "nombre_p": "soldado imperial ",
+      "precio_p": "150",
+      "descripcion_p": "Muñeco del soldado imperial de starwars",
+      "id": 2
+    },
+    {
+      "img_p": "https://th.bing.com/th/id/OIP.Hl3ry91CiUDMm7oP85xrRgHaFh?pid=ImgDet&rs=1",
+      "categoria_p": "limpieza",
+      "nombre_p": "arrancaGrasa",
+      "precio_p": "120",
+      "descripcion_p": "Spray para limpiar con accion anti grasa",
+      "id": "5785cc90-8231-423d-8762-5b64083a27be"
+    }
+  ],
+  "perfiles": [
+    {
+      "nombre": "luis gerardo",
+      "email": "luisgpm3@gmail.com",
+      "password": "19972323",
+      "id": 1
+    }
+  ]
+}

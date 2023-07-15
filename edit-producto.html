@@ -13,6 +13,9 @@
     <link rel="stylesheet" href="assets/css/contacto/contacto-form.css">
     <link rel="stylesheet" href="assets/css/footer.css">
     <link rel="stylesheet" href="assets/css/todos_productos.css">
+    <link rel="stylesheet" href="assets/css/login.css">
+    <link rel="stylesheet" href="assets/css/alta-producto.css">
+
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
     <title>Alura Geek 02</title>
@@ -26,19 +29,32 @@
                 <i class="fa-solid fa-magnifying-glass "></i>
             </div>
         </div>
+        <!--<a id="btn-menu-admin" href="#" class="btn__border__blue admin__btn">Menu Administrador</a>-->
     </header>
 
-    <section class="productos container">
-        <div class="productos_cabecera">
-            <h2 class="productos__titulo">Todos los productos</h2>
-            <a class="btn__blue-cuadrado" href="alta-producto.html">Agregar producto</a>
-        </div>
-        <div class="producto__general" data-producto>
+    <section class="alta">
+        <h2 class="alta__title">editar producto</h2>
+        
+        <form data-form>
+            <label>Coloca la url de la imagen del producto</label>
+            <input class="alta__input__text w3-input"  name="imagen" type="text" required data-img>
+
+            <label for="">Categoria</label>
+            <input class="alta__input__text w3-input" type="text" name="categoria"  required data-categoria>
+
+            <label for="">Nombre</label>
+            <input class="alta__input__text w3-input"  type="text" name="nombre-producto" required data-nombre>
+
+            <label for="">Precio</label>
+            <input class="alta__input__text w3-input"  type="number" name="precio-producto" required data-precio>
+
+            <label for="">Descripción</label>
+            <input class="alta__input__text w3-input"  type="text" name="descripcion" required data-desc>
             
+            <button type="submit" class="btn__blue-cuadrado w3-input">Agregar producto</button>
+        </form>
 
-        </div>
     </section>
-
 
     <section class="contacto container">
         <div class="contacto__div">
@@ -68,6 +84,6 @@
         <h4 class="footer__year">2023</h4>
 
     </footer>
-    <script type="module" src="/servicios/producto-controller.js"></script>
+    <script src="/servicios/actualizar-producto.js" type="module"></script>
 </body>
 </html>

@@ -35,23 +35,23 @@
     <section class="alta">
         <h2 class="alta__title">Agregar nuevo producto</h2>
         
-        <form>
-            <label>url de la imagen</label>
-            <input class="alta__input__text w3-input" type="text" name="imagen">
+        <form data-form>
+            <label>Coloca la url de la imagen del producto</label>
+            <input class="alta__input__text w3-input"  name="imagen" type="text" required data-img>
 
             <label for="">Categoria</label>
-            <input class="alta__input__text w3-input" type="text" name="categoria" placeholder="consolas">
+            <input class="alta__input__text w3-input" type="text" name="categoria"  required data-categoria>
 
             <label for="">Nombre</label>
-            <input class="alta__input__text w3-input"  type="text" name="nombre-producto" >
+            <input class="alta__input__text w3-input"  type="text" name="nombre-producto" required data-nombre>
 
             <label for="">Precio</label>
-            <input class="alta__input__text w3-input"  type="number" name="precio-producto">
+            <input class="alta__input__text w3-input"  type="number" name="precio-producto" required data-precio>
 
             <label for="">Descripción</label>
-            <input class="alta__input__text w3-input"  type="text" name="descripcion" >
+            <input class="alta__input__text w3-input"  type="text" name="descripcion" required data-desc>
             
-            <button class="btn__blue-cuadrado w3-input">Agregar producto</button>
+            <button type="submit" class="btn__blue-cuadrado w3-input">Agregar producto</button>
         </form>
 
     </section>
@@ -84,6 +84,7 @@
         <h4 class="footer__year">2023</h4>
 
     </footer>
-    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="/servicios/alta_producto.js" type="module"></script>
 </body>
 </html>
